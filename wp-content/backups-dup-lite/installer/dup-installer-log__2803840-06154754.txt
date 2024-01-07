@@ -1,0 +1,909 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 05:49:13
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 8.2.13                                |8.3.0
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.3.0 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.3.0
+DOC ROOT____________: "C:/laragon/www/campanhas-nossapraia"
+REQUEST URL_________: "http://campanhas-nossapraia.test"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: https://lancamentosnossapraia.com.br/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/laragon/www/campanhas-nossapraia"
+URL_NEW_____________: "http://campanhas-nossapraia.test"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/laragon/www/campanhas-nossapraia/20231218_lancamentosnossapraia_[HASH]_20240106154754_archive.daf"
+ARCHIVE SIZE________: 159.49MB
+CREATED_____________: 2024-01-06 15:47:54
+WP VERSION__________: 6.4.2
+DUP VERSION_________: 1.5.7.1
+LICENSE_____________: Free version
+DB VERSION__________: 5.7.23
+DB FILE SIZE________: 2.17MB
+DB TABLES___________: 21
+DB ROWS_____________: 565
+URL HOME____________: https://lancamentosnossapraia.com.br
+URL CORE____________: https://lancamentosnossapraia.com.br
+URL CONTENT_________: https://lancamentosnossapraia.com.br/wp-content
+URL UPLOAD__________: https://lancamentosnossapraia.com.br/wp-content/uploads
+URL PLUGINS_________: https://lancamentosnossapraia.com.br/wp-content/plugins
+URL MU PLUGINS______: https://lancamentosnossapraia.com.br/wp-content/mu-plugins
+URL THEMES__________: https://lancamentosnossapraia.com.br/wp-content/themes
+PATH HOME___________: /home2/lanca905/public_html
+PATH ABS____________: /home2/lanca905/public_html
+PATH WPCONFIG_______: /home2/lanca905/public_html
+PATH WPCONTENT______: /home2/lanca905/public_html/wp-content
+PATH UPLOADS________: /home2/lanca905/public_html/wp-content/uploads
+PATH PLUGINS________: /home2/lanca905/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home2/lanca905/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home2/lanca905/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "lancamentosnossapraia.com.br/"
+
+PLUGINS
+PLUGIN [SLUG:custom-field-suite/cfs.php                        ][ON:true ]  Custom Field Suite
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:webp-express/webp-express.php                     ][ON:true ]  WebP Express
+PLUGIN [SLUG:wp-fastest-cache/wpFastestCache.php               ][ON:true ]  WP Fastest Cache
+
+********************************************************************************
+[PHP ERR][E_WARNING] MSG:fsockopen(): Unable to connect to campanhas-nossapraia.test:2083 (Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) [CODE:2|FILE:C:\laragon\www\campanhas-nossapraia\dup-installer\classes\class.http.php|LINE:189]
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.38005]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+[PHP ERR][E_WARNING] MSG:fsockopen(): Unable to connect to campanhas-nossapraia.test:2083 (Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente) [CODE:2|FILE:C:\laragon\www\campanhas-nossapraia\dup-installer\classes\class.http.php|LINE:189]
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.16650]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00046]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00017]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00032]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00043]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/campanhas-nossapraia"
+--------------------------------------
+LOG-TIME[DELTA:   0.11961]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00078]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00026]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00364]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.03390]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00150]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00137]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00675]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00049]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00525]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00062]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   1.54403]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00285]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00785]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00052]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00542]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/campanhas-nossapraia"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 05:50:12
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Lançamentos Nossa Praia"
+HOME URL NEW________: "http://campanhas-nossapraia.test"
+SITE URL NEW________: "http://campanhas-nossapraia.test"
+CONTENT URL NEW_____: "http://campanhas-nossapraia.test/wp-content"
+UPLOAD URL NEW______: "http://campanhas-nossapraia.test/wp-content/uploads"
+PLUGINS URL NEW_____: "http://campanhas-nossapraia.test/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://campanhas-nossapraia.test/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/laragon/www/campanhas-nossapraia"
+SITE PATH NEW_______: "C:/laragon/www/campanhas-nossapraia"
+CONTENT PATH NEW____: "C:/laragon/www/campanhas-nossapraia/wp-content"
+UPLOAD PATH NEW_____: "C:/laragon/www/campanhas-nossapraia/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/laragon/www/campanhas-nossapraia/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/laragon/www/campanhas-nossapraia/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/laragon/www/campanhas-nossapraia/dup-installer"
+	FILE: "C:/laragon/www/campanhas-nossapraia/20231218_lancamentosnossapraia_[HASH]_20240106154754_installer-backup.php"
+	FILE: "C:/laragon/www/campanhas-nossapraia/20231218_lancamentosnossapraia_[HASH]_20240106154754_archive.daf"
+	FILE: "C:/laragon/www/campanhas-nossapraia/installer.php"
+	FILE: "C:/laragon/www/campanhas-nossapraia/dup-installer-bootlog__2803840-06154754.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20231218_lancamentosnossapraia_[HASH]_20240106154754_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: DUP ARCHIVE >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+SQL FILE NOT FOUND SO ADD TO EXTRACTION
+ARCHIVE OFFSET 0
+DAWN START EXPAND
+DUP EXPAND OFFSET 30
+CHUNK COMPLETE - RUNTIME: 6.4602 sec. - Files processed: 1,065 of 5,425
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2888851
+DAWN CONTINUE EXPAND
+#### seeking archive offset 2888851
+DUP EXPAND OFFSET 2888851
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/campanhas-nossapraia"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7887 sec. - Files processed: 1,592 of 5,425
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5964323
+DAWN CONTINUE EXPAND
+#### seeking archive offset 5964323
+DUP EXPAND OFFSET 5964323
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/campanhas-nossapraia"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8250 sec. - Files processed: 2,057 of 5,425
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13998026
+DAWN CONTINUE EXPAND
+#### seeking archive offset 13998026
+DUP EXPAND OFFSET 13998026
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/campanhas-nossapraia"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.6863 sec. - Files processed: 2,435 of 5,425
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15697447
+DAWN CONTINUE EXPAND
+#### seeking archive offset 15697447
+DUP EXPAND OFFSET 15697447
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/campanhas-nossapraia"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7732 sec. - Files processed: 2,860 of 5,425
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 123156887
+DAWN CONTINUE EXPAND
+#### seeking archive offset 123156887
+DUP EXPAND OFFSET 123156887
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/campanhas-nossapraia"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7448 sec. - Files processed: 3,188 of 5,425
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 124469700
+DAWN CONTINUE EXPAND
+#### seeking archive offset 124469700
+DUP EXPAND OFFSET 124469700
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/campanhas-nossapraia"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7446 sec. - Files processed: 3,498 of 5,425
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 125697562
+DAWN CONTINUE EXPAND
+#### seeking archive offset 125697562
+DUP EXPAND OFFSET 125697562
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/campanhas-nossapraia"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7358 sec. - Files processed: 4,002 of 5,425
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 128385322
+DAWN CONTINUE EXPAND
+#### seeking archive offset 128385322
+DUP EXPAND OFFSET 128385322
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/campanhas-nossapraia"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7644 sec. - Files processed: 4,295 of 5,425
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 136109281
+DAWN CONTINUE EXPAND
+#### seeking archive offset 136109281
+DUP EXPAND OFFSET 136109281
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/campanhas-nossapraia"
+--------------------------------------
+DUP EXPAND DONE
+
+
+EXTRACTION: DUP ARCHIVE >>> DONE
+
+EXTRACTION COMPLETE @ 05:51:03 - RUNTIME: 51.1959 sec. - Files processed: 5,425 of 5,425
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 np_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 05:51:03
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "np_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "np_actionscheduler_actions"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: np_actionscheduler_actions]
+TABLE "np_actionscheduler_claims"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: np_actionscheduler_claims]
+TABLE "np_actionscheduler_groups"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: np_actionscheduler_groups]
+TABLE "np_actionscheduler_logs"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: np_actionscheduler_logs]
+TABLE "np_cfs_sessions"_________________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: np_cfs_sessions]
+TABLE "np_cfs_values"___________________________________[ROWS:      75] [EXTRACT|REPLACE] [INST NAME: np_cfs_values]
+TABLE "np_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: np_commentmeta]
+TABLE "np_comments"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: np_comments]
+TABLE "np_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: np_duplicator_packages]
+TABLE "np_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: np_links]
+TABLE "np_options"______________________________________[ROWS:     208] [EXTRACT|REPLACE] [INST NAME: np_options]
+TABLE "np_podsrel"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: np_podsrel]
+TABLE "np_postmeta"_____________________________________[ROWS:     190] [EXTRACT|REPLACE] [INST NAME: np_postmeta]
+TABLE "np_posts"________________________________________[ROWS:      46] [EXTRACT|REPLACE] [INST NAME: np_posts]
+TABLE "np_smush_dir_images"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: np_smush_dir_images]
+TABLE "np_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: np_termmeta]
+TABLE "np_terms"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: np_terms]
+TABLE "np_term_relationships"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: np_term_relationships]
+TABLE "np_term_taxonomy"________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: np_term_taxonomy]
+TABLE "np_usermeta"_____________________________________[ROWS:      42] [EXTRACT|REPLACE] [INST NAME: np_usermeta]
+TABLE "np_users"________________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: np_users]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.30 -- Build Server: 5.7.23
+FILE SIZE:	dup-database__[HASH].sql (984.64KB)
+TIMEOUT:	5000
+MAXPACK:	536870912
+SQLMODE-GLOBAL:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DROP TABLE np_actionscheduler_actions
+DROP TABLE np_actionscheduler_claims
+DROP TABLE np_actionscheduler_groups
+DROP TABLE np_actionscheduler_logs
+DROP TABLE np_cfs_sessions
+DROP TABLE np_cfs_values
+DROP TABLE np_commentmeta
+DROP TABLE np_comments
+DROP TABLE np_duplicator_packages
+DROP TABLE np_links
+DROP TABLE np_options
+DROP TABLE np_podsrel
+DROP TABLE np_postmeta
+DROP TABLE np_posts
+DROP TABLE np_smush_dir_images
+DROP TABLE np_term_relationships
+DROP TABLE np_term_taxonomy
+DROP TABLE np_termmeta
+DROP TABLE np_terms
+DROP TABLE np_usermeta
+DROP TABLE np_users
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	21
+RENAMED TABLES:	0
+QUERIES RAN:	205
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "np_actionscheduler_actions"______________________[ROWS:     1]
+TABLE "np_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "np_actionscheduler_groups"_______________________[ROWS:     1]
+TABLE "np_actionscheduler_logs"_________________________[ROWS:     1]
+TABLE "np_cfs_sessions"_________________________________[ROWS:     8]
+TABLE "np_cfs_values"___________________________________[ROWS:    75]
+TABLE "np_commentmeta"__________________________________[ROWS:     0]
+TABLE "np_comments"_____________________________________[ROWS:     0]
+TABLE "np_duplicator_packages"__________________________[ROWS:     1]
+TABLE "np_links"________________________________________[ROWS:     0]
+TABLE "np_options"______________________________________[ROWS:   208]
+TABLE "np_podsrel"______________________________________[ROWS:     0]
+TABLE "np_postmeta"_____________________________________[ROWS:   190]
+TABLE "np_posts"________________________________________[ROWS:    46]
+TABLE "np_smush_dir_images"_____________________________[ROWS:     0]
+TABLE "np_term_relationships"___________________________[ROWS:     0]
+TABLE "np_term_taxonomy"________________________________[ROWS:     1]
+TABLE "np_termmeta"_____________________________________[ROWS:     0]
+TABLE "np_terms"________________________________________[ROWS:     1]
+TABLE "np_usermeta"_____________________________________[ROWS:    42]
+TABLE "np_users"________________________________________[ROWS:     2]
+
+INSERT DATA RUNTIME: 34.2956 sec.
+STEP-2 COMPLETE @ 05:51:38 - RUNTIME: 34.2959 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home2/lanca905/public_html REPLACE: C:/laragon/www/campanhas-nossapraia [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://lancamentosnossapraia.com.br REPLACE: http://campanhas-nossapraia.test [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 05:51:38
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Deploy\Database\DbCleanup.php|LINE:95]
+CLEAN OPTIONS [np_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    25]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "np_actionscheduler_actions"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/lanca905/public_html" =====================> "C:/laragon/www/campanhas-nossapraia"
+	SEARCH[urlnd]  2:"https://lancamentosnossapraia.com.br" ============> "http://campanhas-nossapraia.test"
+	CHUNK ACTION: CURRENT [search_replace][np_actionscheduler_actions][0]
+
+EVALUATE TABLE: "np_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "np_actionscheduler_groups"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/lanca905/public_html" =====================> "C:/laragon/www/campanhas-nossapraia"
+	SEARCH[urlnd]  2:"https://lancamentosnossapraia.com.br" ============> "http://campanhas-nossapraia.test"
+	CHUNK ACTION: CURRENT [search_replace][np_actionscheduler_groups][0]
+
+EVALUATE TABLE: "np_actionscheduler_logs"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/lanca905/public_html" =====================> "C:/laragon/www/campanhas-nossapraia"
+	SEARCH[urlnd]  2:"https://lancamentosnossapraia.com.br" ============> "http://campanhas-nossapraia.test"
+	CHUNK ACTION: CURRENT [search_replace][np_actionscheduler_logs][0]
+
+EVALUATE TABLE: "np_cfs_sessions"_________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/lanca905/public_html" =====================> "C:/laragon/www/campanhas-nossapraia"
+	SEARCH[urlnd]  2:"https://lancamentosnossapraia.com.br" ============> "http://campanhas-nossapraia.test"
+	CHUNK ACTION: CURRENT [search_replace][np_cfs_sessions][0]
+
+EVALUATE TABLE: "np_cfs_values"___________________________________[ROWS:    75][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/lanca905/public_html" =====================> "C:/laragon/www/campanhas-nossapraia"
+	SEARCH[urlnd]  2:"https://lancamentosnossapraia.com.br" ============> "http://campanhas-nossapraia.test"
+	CHUNK ACTION: CURRENT [search_replace][np_cfs_values][0]
+
+EVALUATE TABLE: "np_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "np_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "np_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "np_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "np_options"______________________________________[ROWS:   183][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/lanca905/public_html" =====================> "C:/laragon/www/campanhas-nossapraia"
+	SEARCH[urlnd]  2:"https://lancamentosnossapraia.com.br" ============> "http://campanhas-nossapraia.test"
+	CHUNK ACTION: CURRENT [search_replace][np_options][0]
+
+EVALUATE TABLE: "np_podsrel"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "np_postmeta"_____________________________________[ROWS:   190][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/lanca905/public_html" =====================> "C:/laragon/www/campanhas-nossapraia"
+	SEARCH[urlnd]  2:"https://lancamentosnossapraia.com.br" ============> "http://campanhas-nossapraia.test"
+	CHUNK ACTION: CURRENT [search_replace][np_postmeta][0]
+
+EVALUATE TABLE: "np_posts"________________________________________[ROWS:    46][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/lanca905/public_html" =====================> "C:/laragon/www/campanhas-nossapraia"
+	SEARCH[urlnd]  2:"https://lancamentosnossapraia.com.br" ============> "http://campanhas-nossapraia.test"
+	CHUNK ACTION: CURRENT [search_replace][np_posts][0]
+	
+STEP-3 CHUNK STOP @ 05:51:44 - RUNTIME: 6.5639 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "np_smush_dir_images"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "np_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "np_terms"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/lanca905/public_html" =====================> "C:/laragon/www/campanhas-nossapraia"
+	SEARCH[urlnd]  2:"https://lancamentosnossapraia.com.br" ============> "http://campanhas-nossapraia.test"
+	CHUNK ACTION: CURRENT [search_replace][np_terms][0]
+
+EVALUATE TABLE: "np_term_relationships"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "np_term_taxonomy"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/lanca905/public_html" =====================> "C:/laragon/www/campanhas-nossapraia"
+	SEARCH[urlnd]  2:"https://lancamentosnossapraia.com.br" ============> "http://campanhas-nossapraia.test"
+	CHUNK ACTION: CURRENT [search_replace][np_term_taxonomy][0]
+
+EVALUATE TABLE: "np_usermeta"_____________________________________[ROWS:    42][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/lanca905/public_html" =====================> "C:/laragon/www/campanhas-nossapraia"
+	SEARCH[urlnd]  2:"https://lancamentosnossapraia.com.br" ============> "http://campanhas-nossapraia.test"
+	CHUNK ACTION: CURRENT [search_replace][np_usermeta][0]
+
+EVALUATE TABLE: "np_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/lanca905/public_html" =====================> "C:/laragon/www/campanhas-nossapraia"
+	SEARCH[urlnd]  2:"https://lancamentosnossapraia.com.br" ============> "http://campanhas-nossapraia.test"
+	CHUNK ACTION: CURRENT [search_replace][np_users][0]
+--------------------------------------
+SCANNED:	Tables:21 	|	 Rows:551 	|	 Cells:3467 
+UPDATED:	Tables:3 	|	 Rows:51 	|	 Cells:52 
+ERRORS:		0 
+RUNTIME:	6.577700 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/laragon/www/campanhas-nossapraia/wp-config.php
+New htaccess file created:C:/laragon/www/campanhas-nossapraia/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""nossapraia_db""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 05:51:46 - RUNTIME: 1.1310 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[C:\laragon\www\campanhas-nossapraia\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.09219]  MESSAGE:END RENDER PAGE

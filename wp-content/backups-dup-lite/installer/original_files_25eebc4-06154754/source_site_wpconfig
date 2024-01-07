@@ -1,0 +1,99 @@
+<?php
+/**
+ * As configurações básicas do WordPress
+ *
+ * O script de criação wp-config.php usa esse arquivo durante a instalação.
+ * Você não precisa usar o site, você pode copiar este arquivo
+ * para "wp-config.php" e preencher os valores.
+ *
+ * Este arquivo contém as seguintes configurações:
+ *
+ * * Configurações do banco de dados
+ * * Chaves secretas
+ * * Prefixo do banco de dados
+ * * ABSPATH
+ *
+ * @link https://wordpress.org/documentation/article/editing-wp-config-php/
+ *
+ * @package WordPress
+ */
+
+// ** Configurações do banco de dados - Você pode pegar estas informações com o serviço de hospedagem ** //
+/** O nome do banco de dados do WordPress */
+define( 'DB_NAME', '' );
+
+/** Usuário do banco de dados MySQL */
+define( 'DB_USER', '' );
+
+/** Senha do banco de dados MySQL */
+define( 'DB_PASSWORD', '' );
+
+/** Nome do host do MySQL */
+define( 'DB_HOST', '' );
+
+/** Charset do banco de dados a ser usado na criação das tabelas. */
+define( 'DB_CHARSET', 'utf8mb4' );
+
+/** O tipo de Collate do banco de dados. Não altere isso se tiver dúvidas. */
+define( 'DB_COLLATE', '' );
+
+/**#@+
+ * Chaves únicas de autenticação e salts.
+ *
+ * Altere cada chave para um frase única!
+ * Você pode gerá-las
+ * usando o {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org
+ * secret-key service}
+ * Você pode alterá-las a qualquer momento para invalidar quaisquer
+ * cookies existentes. Isto irá forçar todos os
+ * usuários a fazerem login novamente.
+ *
+ * @since 2.6.0
+ */
+define( 'AUTH_KEY',         '_u+GS?}NNR!l^Y%Pypzn!iK6K[Gi5[(a|D#yCjK8v0DK?!~Mj_Ef6g~D%mznY],=' );
+define( 'SECURE_AUTH_KEY',  '^vcPg[<L!Q_K%[R8(y3V,L#:Z[XeAucT(at>GyMIt45yjx]viCG5)TIhJuOA0AbM' );
+define( 'LOGGED_IN_KEY',    'E[bbo-wdky>im__# !3yKOI?SA#/QtDcf{6nB^N,`Va7]6;aXTs69kOd.;[b:4~3' );
+define( 'NONCE_KEY',        '!BAGl6Y^],p-hMaNviPN4xNq/$Bp=Rl6m19m3MBB^oa dht1?WLB:.>AVO+aTv?)' );
+define( 'AUTH_SALT',        '^WAMmD,`lQ0HS6xst^UD_f-&KC g#IdFtXyF X&*y?SQTx$^B Y&Y5/y#P.ZQk,_' );
+define( 'SECURE_AUTH_SALT', 'n>E~Q]x0?]mdVGqw!X6LPB!e_M8{9k>_96Y5vd<nFw&,lr2:o.n6j1Iem*0`7yxe' );
+define( 'LOGGED_IN_SALT',   '6i`zqn8mfX}^J/am7su455!Fj}gg[dYWVk4x7 }/i,^Puzs&9:gr+IpK{Mrs#ZbT' );
+define( 'NONCE_SALT',       ':qZhb&DrAe>&0IP=ik.# [{rxoq9`fy,^!b;X/ydRo?}hN_9q7 [wmQU@&h6k(th' );
+
+/**#@-*/
+
+/**
+ * Prefixo da tabela do banco de dados do WordPress.
+ *
+ * Você pode ter várias instalações em um único banco de dados se você der
+ * um prefixo único para cada um. Somente números, letras e sublinhados!
+ */
+$table_prefix = 'np_';
+
+/**
+ * Para desenvolvedores: Modo de debug do WordPress.
+ *
+ * Altere isto para true para ativar a exibição de avisos
+ * durante o desenvolvimento. É altamente recomendável que os
+ * desenvolvedores de plugins e temas usem o WP_DEBUG
+ * em seus ambientes de desenvolvimento.
+ *
+ * Para informações sobre outras constantes que podem ser utilizadas
+ * para depuração, visite o Codex.
+ *
+ * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
+ */
+define( 'WP_DEBUG', false );
+
+/* Adicione valores personalizados entre esta linha até "Isto é tudo". */
+
+
+
+/* Isto é tudo, pode parar de editar! :) */
+
+/** Caminho absoluto para o diretório WordPress. */
+if ( ! defined( 'ABSPATH' ) ) {
+	define( 'ABSPATH', dirname(__FILE__) . '/' );
+}
+
+/** Configura as variáveis e arquivos do WordPress. */
+require_once ABSPATH . 'wp-settings.php';

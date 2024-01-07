@@ -1,0 +1,84 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 06/01/2024 20:54
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.7.1
+WORDPRESS:	6.4.2
+PHP INFO:	8.3.0 | SAPI: apache2handler
+SERVER:		Apache/2.4.54 (Win64) OpenSSL/1.1.1q PHP/8.3.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 42MB
+[CTRL DUP ARCIVE] PACKAGE AS NEW ID 3 SAVED | STATUS:0
+[DUP ARCHIVE] BUILDING DATABASE
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:24 | filtered:0 | create:24
+FILTERED: []
+SQL CREATED: 20231218_lancamentosnossapraia_904542a67cfaee5b8502_20240106205419_database.sql
+SQL FILE SIZE: 1.32MB (1384443)
+SQL FILE TIME: 2024-01-06 20:55:01
+SQL RUNTIME: 3.51 sec.
+[DUP ARCHIVE] VALIDATING DATABASE
+[DUP ARCHIVE] DONE DATABASE
+
+********************************************************************************
+ARCHIVE Type=DUP Mode=DupArchive
+********************************************************************************
+ARCHIVE DIR:  C:/laragon/www/campanhas-nossapraia
+ARCHIVE FILE: 20231218_lancamentosnossapraia_904542a67cfaee5b8502_20240106205419_archive.daf
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	168.55MB
+STATS:	Dirs 526 | Files 4,045 | Total 4,571
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] DONE ARCHIVE
+building installer
+[DUP ARCHIVE] DONE ARCHIVE
+COMPRESSED SIZE: 124.7MB
+ARCHIVE RUNTIME: 161.40 sec.
+MEMORY STACK: 46MB
+CREATE WARNINGS: No warnings.
+VALIDATION WARNINGS: No warnings.
+[DUP ARCHIVE] DONE ARCHIVE
+[DUP ARCHIVE] HAS COMPLETED CLOSING
+[DUP ARCHIVE] DUP ARCHIVE INTEGRITY CHECK
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.32MB
+INSTALLER FILE: 94.83KB
+ARCHIVE FILE: 124.7MB 
+EXPECTED FILE/DIRECTORY COUNT: 5,310
+ACTUAL FILE/DIRECTORY COUNT: 5,311
+
+********************************************************************************
+RECORD ID:[3]
+TOTAL PROCESS RUNTIME: 161.76 sec.
+PEAK PHP MEMORY USED: 46MB
+DONE PROCESSING => 20231218_lancamentosnossapraia 2024-01-06 20:57:39
+
